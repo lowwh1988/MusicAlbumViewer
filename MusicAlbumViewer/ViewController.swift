@@ -59,8 +59,9 @@ class ViewController: UIViewController , UICollectionViewDataSource, UICollectio
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! musicAlbumCell
         
         let item = musicAlbumMachine.inventory[indexPath.row]
-        let bundlePath = NSBundle.mainBundle().pathForResource(item.albumName, ofType: "jpg")
-        cell.albumCover.image = UIImage(contentsOfFile: bundlePath)
+        if let bundlePath = NSBundle.mainBundle().pathForResource(item.albumName, ofType: "jpg"){
+            cell.albumCover.image = UIImage(contentsOfFile: bundlePath)
+        }
         
         return cell
     }

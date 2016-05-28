@@ -9,7 +9,7 @@
 import Foundation
 
 struct MusicAlbum {
-    let albumName : NSString?
-    let albumTrack : [NSString]?
-    let albumArtist : NSString?
+    let albumName : String?
+    let albumTrack : [String]?
+    let albumArtist : String?
 }

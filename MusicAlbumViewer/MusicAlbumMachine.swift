@@ -49,7 +49,7 @@ class InventoryUnarchiver {
         for album in array{
             if let albumName = album["albumName"], let albumTrack = album["albumTrack"],
                 let albumArtist = album["albumArtist"]{
-                    let info = MusicAlbum(albumName: albumName as? NSString, albumTrack: albumTrack as? [NSString], albumArtist: albumArtist as? NSString)
+                    let info = MusicAlbum(albumName: albumName as? String, albumTrack: albumTrack as? [String], albumArtist: albumArtist as? String)
                     inventory.append(info)
             }else{
                 throw InventoryError.InvalidKey
