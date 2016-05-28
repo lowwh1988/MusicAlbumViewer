@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>albumName</key>
+		<string>Tsuyokimono yo</string>
+		<key>albumTrack</key>
+		<array>
+			<string>Tsuyokimono yo (Team S Version)</string>
+			<string>Tsuyokimono yo (Team KII)</string>
+		</array>
+		<key>albumArtist</key>
+		<string>SKE48</string>
+	</dict>
+	<dict>
+		<key>albumName</key>
+		<string>Aozora Kataomoi</string>
+		<key>albumTrack</key>
+		<array>
+			<string>Aozora Kataomoi</string>
+			<string>Bungee Sengen</string>
+		</array>
+		<key>albumArtist</key>
+		<string>SKE48</string>
+	</dict>
+	<dict>
+		<key>albumName</key>
+		<string>Gomen ne SUMMER</string>
+		<key>albumTrack</key>
+		<array>
+			<string>Gomen ne SUMMER</string>
+			<string>Shoujo wa Manatsu ni Nani wo Suru?</string>
+			<string>Hazumisaki</string>
+		</array>
+		<key>albumArtist</key>
+		<string>SKE48</string>
+	</dict>
+</array>
+</plist>

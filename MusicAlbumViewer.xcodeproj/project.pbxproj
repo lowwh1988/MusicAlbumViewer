@@ -14,6 +14,13 @@
 		9419B3971CF99B6C00980774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9419B3951CF99B6C00980774 /* LaunchScreen.storyboard */; };
 		9419B3A21CF99B6D00980774 /* MusicAlbumViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419B3A11CF99B6D00980774 /* MusicAlbumViewerTests.swift */; };
 		9419B3AD1CF99B6D00980774 /* MusicAlbumViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419B3AC1CF99B6D00980774 /* MusicAlbumViewerUITests.swift */; };
+		9419B3BB1CF99B8A00980774 /* MusicAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419B3BA1CF99B8A00980774 /* MusicAlbum.swift */; };
+		9419B3BD1CF99B9A00980774 /* MusicAlbumMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419B3BC1CF99B9A00980774 /* MusicAlbumMachine.swift */; };
+		9419B3BF1CF9C55900980774 /* Gomen ne SUMMER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9419B3BE1CF9C55900980774 /* Gomen ne SUMMER.jpg */; };
+		9419B3C21CF9C55F00980774 /* Aozora Kataomoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9419B3C01CF9C55F00980774 /* Aozora Kataomoi.jpg */; };
+		9419B3C31CF9C55F00980774 /* Tsuyokimono yo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9419B3C11CF9C55F00980774 /* Tsuyokimono yo.jpg */; };
+		9419B3C51CF9C6D800980774 /* album.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9419B3C41CF9C6D800980774 /* album.plist */; };
+		9419B3C71CF9CF5D00980774 /* musicAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419B3C61CF9CF5D00980774 /* musicAlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		9419B3A81CF99B6D00980774 /* MusicAlbumViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAlbumViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9419B3AC1CF99B6D00980774 /* MusicAlbumViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumViewerUITests.swift; sourceTree = "<group>"; };
 		9419B3AE1CF99B6D00980774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9419B3BA1CF99B8A00980774 /* MusicAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicAlbum.swift; sourceTree = "<group>"; };
+		9419B3BC1CF99B9A00980774 /* MusicAlbumMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicAlbumMachine.swift; sourceTree = "<group>"; };
+		9419B3BE1CF9C55900980774 /* Gomen ne SUMMER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gomen ne SUMMER.jpg"; sourceTree = "<group>"; };
+		9419B3C01CF9C55F00980774 /* Aozora Kataomoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aozora Kataomoi.jpg"; sourceTree = "<group>"; };
+		9419B3C11CF9C55F00980774 /* Tsuyokimono yo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tsuyokimono yo.jpg"; sourceTree = "<group>"; };
+		9419B3C41CF9C6D800980774 /* album.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = album.plist; sourceTree = "<group>"; };
+		9419B3C61CF9CF5D00980774 /* musicAlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = musicAlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,14 @@
 			children = (
 				9419B38C1CF99B6C00980774 /* AppDelegate.swift */,
 				9419B38E1CF99B6C00980774 /* ViewController.swift */,
+				9419B3C61CF9CF5D00980774 /* musicAlbumCell.swift */,
+				9419B3BA1CF99B8A00980774 /* MusicAlbum.swift */,
+				9419B3BC1CF99B9A00980774 /* MusicAlbumMachine.swift */,
 				9419B3901CF99B6C00980774 /* Main.storyboard */,
+				9419B3C41CF9C6D800980774 /* album.plist */,
+				9419B3C01CF9C55F00980774 /* Aozora Kataomoi.jpg */,
+				9419B3C11CF9C55F00980774 /* Tsuyokimono yo.jpg */,
+				9419B3BE1CF9C55900980774 /* Gomen ne SUMMER.jpg */,
 				9419B3931CF99B6C00980774 /* Assets.xcassets */,
 				9419B3951CF99B6C00980774 /* LaunchScreen.storyboard */,
 				9419B3981CF99B6C00980774 /* Info.plist */,
@@ -114,7 +135,7 @@
 				9419B3A31CF99B6D00980774 /* Info.plist */,
 			);
 			path = MusicAlbumViewerTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		9419B3AB1CF99B6D00980774 /* MusicAlbumViewerUITests */ = {
 			isa = PBXGroup;
@@ -229,8 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9419B3C31CF9C55F00980774 /* Tsuyokimono yo.jpg in Resources */,
+				9419B3BF1CF9C55900980774 /* Gomen ne SUMMER.jpg in Resources */,
 				9419B3971CF99B6C00980774 /* LaunchScreen.storyboard in Resources */,
+				9419B3C51CF9C6D800980774 /* album.plist in Resources */,
 				9419B3941CF99B6C00980774 /* Assets.xcassets in Resources */,
+				9419B3C21CF9C55F00980774 /* Aozora Kataomoi.jpg in Resources */,
 				9419B3921CF99B6C00980774 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9419B38F1CF99B6C00980774 /* ViewController.swift in Sources */,
+				9419B3BD1CF99B9A00980774 /* MusicAlbumMachine.swift in Sources */,
+				9419B3BB1CF99B8A00980774 /* MusicAlbum.swift in Sources */,
+				9419B3C71CF9CF5D00980774 /* musicAlbumCell.swift in Sources */,
 				9419B38D1CF99B6C00980774 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
